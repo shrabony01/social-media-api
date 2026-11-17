@@ -27,3 +27,6 @@ app.get("/", async (req, res) => {
   }
 });
 //start the express server
+app.listen(port,()=>{
+    console.log(`Server is running on http://localhost:${port}`);
+});
